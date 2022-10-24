@@ -8,5 +8,9 @@ export const GlobalStyles = createGlobalStyle`
     }
     html{
         font-size: 62.5%;// Isso existe para que 1rem seja igual a 10px, caso não tiver usando rem pode apagar;
+
+    }
+    body{
+        background-color: #fafafa;
     }
 `;
